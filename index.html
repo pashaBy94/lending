@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This page is description of aivazovski life."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/normolize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation" aria-label="header navigation">
+          <ul class="navigation__list" aria-label="header navigation list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#" aria-label="link to home"
+                >Home</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a
+                class="navigation__link"
+                href="#about"
+                aria-label="link to about"
+                >About</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a
+                class="navigation__link"
+                href="#history"
+                aria-label="link to history"
+                >History</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a
+                class="navigation__link"
+                href="#portfolio"
+                aria-label="link to portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a
+                class="navigation__link"
+                href="#contacts"
+                aria-label="link to contacts"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="person" aria-label="section person" id="person">
+        <div class="container">
+          <h1 class="person__title" aria-label="title name">
+            Ivan Constantinovich Aivazovski
+          </h1>
+          <p class="person__description" aria-label="Description of Aivazovski">
+            Russian marine painter of Armenian origin, collector, philanthropist
+          </p>
+          <img
+            src="./images/main.webp"
+            alt="Aivazovski photo"
+            class="person__image"
+          />
+        </div>
+      </section>
+      <section class="about" aria-label="section about" id="about">
+        <div class="container">
+          <h2 class="about__title" aria-label="Title about">About</h2>
+          <div class="about__content">
+            <h3 class="abut__subtitle ru" aria-label="Subtitle russia">
+              Ива́н Константи́нович Айвазо́вский – русский живописец-маринист
+              армянского происхождения, коллекционер, меценат.
+            </h3>
+            <p
+              class="about__text ru"
+              aria-label="one part of his life from russia"
+            >
+              Будучи художником с мировой известностью, Иван Константинович
+              Айвазовский предпочитал жить и работать на своей родине — в Крыму.
+              Айвазовский наиболее известен своими морскими пейзажами, которые
+              составляют больше половины его работ. Художник считается одним из
+              величайших маринистов всех времён.
+            </p>
+            <hr class="about__line" aria-label="separator" />
+            <h3 class="abut__subtitle en" aria-label="Subtitle english">
+              Ivan Konstantinovich Aivazovsky - Russian marine painter of
+              Armenian origin, collector, philanthropist.
+            </h3>
+            <p
+              class="about__text en"
+              aria-label="one part of his life from english"
+            >
+              Being a world famous artist, Ivan Konstantinovich Aivazovsky
+              preferred to live and work in his homeland - in the Crimea.
+              Aivazovsky is best known for his seascapes, which make up more
+              than half of his work. The artist is considered one of the
+              greatest marine painters of all time.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="history" aria-label="section history" id="history">
+        <div class="container">
+          <h2 class="history__title">History</h2>
+          <img
+            src="./images/houm.webp"
+            alt="history image"
+            class="history__imag"
+          />
+          <p class="history__text" aria-label="image description">
+            Дом в котором родился Айвазовский | The house where Aivazovsky was
+            born
+          </p>
+        </div>
+      </section>
+      <section class="portfolio" aria-label="section portfolio" id="portfolio">
+        <div class="container">
+          <h2 class="portfolio__title">Portfolio</h2>
+          <img
+            src="./images/morning.webp"
+            alt="Image from portfolio"
+            class="portfolio__imag"
+          />
+          <p class="portfolio__text">
+            Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857
+          </p>
+          <img
+            src="./images/snow.webp"
+            alt="Image from portfolio"
+            class="portfolio__imag"
+          />
+          <p class="portfolio__text">Радуга, 1873 г. | Rainbow, 1873</p>
+          <img
+            src="./images/rain.webp"
+            alt="Image from portfolio"
+            class="portfolio__imag"
+          />
+          <p class="portfolio__text">
+            Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning,
+            1893
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="contacts" aria-label="section contacts" id="contacts">
+      <div class="container">
+        <h2 class="contacts__title">Contacts</h2>
+        <a
+          href="http://ayvazovskiy.su/"
+          class="contacts__ai"
+          target="_blank"
+          rel="noopener nsoreferrer"
+          aria-label="link to page of ayvazovskiy"
+          >ayvazovskiy.su</a
+        >
+        <ul class="contacts__messanger" aria-label="list link">
+          <li class="contacts__item">
+            <a href="#" class="contacts__link" aria-label="link to vk">
+              <svg class="contacts__img" aria-label="icon">
+                <use href="./images/sprites.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="#" class="contacts__link" aria-label="link to instagram">
+              <svg class="contacts__img" aria-label="icon">
+                <use href="./images/sprites.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="#" class="contacts__link" aria-label="link to linkedin">
+              <svg class="contacts__img" aria-label="icon">
+                <use href="./images/sprites.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="#" class="contacts__link" aria-label="link to facebook">
+              <svg class="contacts__img" aria-label="icon">
+                <use href="./images/sprites.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="contacts__text" aria-label="description">
+          More works you can see in these social networks
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
